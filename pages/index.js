@@ -1,10 +1,18 @@
 import React from 'react';
-import LeeBoy from '../components/component';
+import Component from '../components/component';
 
-export default function Home() {
+const Index = () => {
   return (
-    <div>
-      <LeeBoy />
-    </div>
+    <>
+      <style>{`
+        body {
+          margin: 0;
+        }
+      `}</style>
+      <Component />
+    </>
   );
-}
+};
+
+export default Index;
+ 
